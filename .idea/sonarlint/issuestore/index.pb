@@ -1,8 +1,4 @@
 
-G
-product-service/pom.xml,f/c/fcf146007330bb14605a232d25428bbf6aa50b7b
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 Å
 Qinventory-service/src/main/java/com/example/inventoryservice/dto/ResponseDTO.java,f/f/ffabe246530660cc768bf1d879e4def12c6f3747
 ä
@@ -19,8 +15,6 @@ Torder-service/src/main/java/com/example/orderservice/controller/OrderController
 Norder-service/src/main/java/com/example/orderservice/model/OrderLineItems.java,a/5/a533309678c30b57b26e72a2ba798d4e88cd0dd0
 |
 Lorder-service/src/main/java/com/example/orderservice/mapper/OrderMapper.java,0/d/0d64431103af6aef35e762c29a7b6d84429dab35
-I
-inventory-service/pom.xml,e/3/e347da292c40d252c508703eddff460d1f378f1c
 Ñ
 Torder-service/src/main/java/com/example/orderservice/repository/OrderRepository.java,5/1/51f1ad65d02eb0a1c4257f37a0cae7fa2f47c74f
 ê
