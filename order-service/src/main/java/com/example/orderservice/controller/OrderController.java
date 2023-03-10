@@ -1,5 +1,6 @@
 package com.example.orderservice.controller;
 
+import com.example.orderservice.dto.InventoryResponseDTO;
 import com.example.orderservice.dto.OrderRequestDTO;
 import com.example.orderservice.dto.ResponseDTO;
 import com.example.orderservice.service.OrderService;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Objects;
+import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
@@ -18,7 +19,7 @@ public class OrderController {
 
     private final OrderService orderService;
     @PostMapping(value = "/")
-    public ResponseDTO<Objects> placeOrder(@RequestBody OrderRequestDTO orderRequestDTO){
+    public ResponseDTO<List<InventoryResponseDTO>> placeOrder(@RequestBody OrderRequestDTO orderRequestDTO){
         return orderService.placeOrder(orderRequestDTO);
     }
 }
